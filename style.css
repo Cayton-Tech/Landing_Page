@@ -160,3 +160,27 @@ body  {
   cursor: pointer;
   font-size: 24px;
 }
+
+footer  {
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer ul li  {
+  display: inline;
+}
+
+footer ul li:not(last-child)  {
+  margin-right: 10px;
+}
+
+footer ul li a  {
+  color: #000;
+  text-decoration: none; 
+}
