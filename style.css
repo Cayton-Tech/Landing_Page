@@ -33,7 +33,6 @@ body  {
   border-radius: 50%;
 }
 
-
 #nav-bar  {
   display: flex;
   flex-grow: 1;
@@ -191,4 +190,38 @@ p   {
 
 h2  {
   text-align: center;
+}
+
+@media (min-width: 600px) {
+  #header {
+    flex-direction: row;
+    left: 5%;
+    right: 5%;
+  }
+
+  #nav-bar ul {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+  }
+
+  #nav-bar ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+
+  #nav-bar ul li:last-child {
+    margin-right: 0px;
+  }
+}  
+
+@media  (min-width: 800px)  {
+  #Pricing  {
+    flex-direction: row;
+    align-self: center;
+  }
+
+  #Pricing .card:not(last-child)  {
+    margin-right: 15px;
+  }
 }
